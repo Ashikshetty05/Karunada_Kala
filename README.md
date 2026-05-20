@@ -51,6 +51,20 @@ app/
 ├── build.gradle.kts
 └── local.properties
 
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshots/home_screen.png)
+
+### Explore Arts
+![Explore Arts](screenshots/explore_arts.png)
+
+### Artisan Map
+![Artisan Map](screenshots/artisan_map.png)
+
+### Workshops
+![Workshops](screenshots/workshops.png)
+
 ## User Journey
 1. **Browse Art Forms** → Click "Explore Arts" to discover Karnataka art forms
 2. **Find Artisans** → Click "Artisan Map" to view locations and call artisans directly
