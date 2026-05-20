@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -49,6 +50,16 @@ fun MainDashboard(onExploreClick: () -> Unit, onMapClick: () -> Unit, onWorkshop
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+        // Karnataka Flag
+        Column(
+            modifier = Modifier
+                .size(width = 180.dp, height = 120.dp)
+                .padding(bottom = 32.dp)
+        ) {
+            Box(modifier = Modifier.fillMaxWidth().weight(1f).background(Color(0xFFFFCD00)))
+            Box(modifier = Modifier.fillMaxWidth().weight(1f).background(Color(0xFFC8102E)))
+        }
+
         Text(text = "Karunada-Kala", style = MaterialTheme.typography.headlineLarge, color = Color(0xFFC8102E), modifier = Modifier.padding(bottom = 32.dp))
         DashboardButton("Explore Arts", Color(0xFFFFCD00), onClick = onExploreClick)
         DashboardButton("Artisan Map", Color(0xFFC8102E), onClick = onMapClick)
@@ -100,7 +111,6 @@ fun ArtExplorerScreen(onBackClick: () -> Unit) {
     }
 }
 
-// Keep your WorkshopScreen and ArtisanMapScreen functions the same as before...
 @Composable
 fun WorkshopScreen(onBackClick: () -> Unit) {
     var name by remember { mutableStateOf("") }
