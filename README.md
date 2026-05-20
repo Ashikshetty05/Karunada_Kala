@@ -54,16 +54,16 @@ app/
 ## Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home_screen.png)
+![Home Screen](screenshots/home%20page.png)
 
 ### Explore Arts
-![Explore Arts](screenshots/explore_arts.png)
+![Explore Arts](screenshots/art%20forms.png)
 
 ### Artisan Map
-![Artisan Map](screenshots/artisan_map.png)
+![Artisan Map](screenshots/map.png)
 
 ### Workshops
-![Workshops](screenshots/workshops.png)
+![Workshops](screenshots/workshop%20reg.png)
 
 ## User Journey
 1. **Browse Art Forms** → Click "Explore Arts" to discover Karnataka art forms
